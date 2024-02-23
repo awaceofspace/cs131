@@ -1,0 +1,206 @@
+    1  passwd
+    2  clear
+    3  echo $SHELL
+    4  clear
+    5  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/spotify-2023.csv
+    6  clear
+    7  pwd
+    8  clear
+    9  ls
+   10  tail -15 spotify-2023.csv 
+   11  clear
+   12  head spotify-2023.csv 
+   13  clear
+   14  head -15 spotify-2023.csv 
+   15  man tail
+   16  clear
+   17  nano spotify-2023.csv 
+   18  clear
+   19  nano spotify-2023.csv 
+   20  clear
+   21  vi spotify-2023.csv 
+   22  clear
+   23  vi spotify-2023.csv 
+   24  vi sp`
+   25  vi
+   26  vi spotify-2023.csv 
+   27  clear
+   28  ls
+   29  clear
+   30  vi spotify-2023.csv 
+   31  clear
+   32  pwd
+   33  ls
+   34  clear
+   35  grep -i taylor swift spotify-2023.csv > tayloranddrakesongs.txt
+   36  clear
+   37  vi tayloranddrakesongs.txt
+   38  ls
+   39  cat tayloranddrakesongs.txt 
+   40  clear
+   41  grep -i drake spotify-2023.csv >> tayloranddrakesongs.txt 
+   42  cat tayloranddrakesongs.txt 
+   43  clear
+   44  wc -l tayloranddrakesongs.txt 
+   45  clear
+   46  pwd
+   47  ls
+   48  mkdir testgit
+   49  ls
+   50  cd testgit/
+   51  git init
+   52  vi testgitfile.txt
+   53  ls
+   54  vi testgitfile.txt
+   55  ls
+   56  git status
+   57  git add testgitfile.txt 
+   58  git status
+   59  git commit -m "Firs commit!"
+   60  git config --global aceguillerlavilla@gmail.com
+   61  git config --global user.email "aceguillerlavilla@gmail.com"
+   62  git commit -m "Commit!"
+   63  git config --global user.name "Ace Lavilla"
+   64  git commit -m "Commit!"
+   65  git checkout -b secondbranch
+   66  git branch
+   67  git remote add origin git@github.com:awaceofspace/cs131.git
+   68  echo $?
+   69  git push -u origin master
+   70  wget www.github.com
+   71  git remote add origin git remote add origin git@github.com:awaceofspace/cs131.git
+   72  git remote add origin git@github.com:awaceofspace/cs131.git
+   73  git push -u origin master
+   74  git remote set-url -add origin https://github.com/awaceofspace/cs131
+   75  git remote set-url --add origin https://github.com/awaceofspace/cs131
+   76  git remote set-url --delete origin git@github.com:awacoespace/cs131
+   77  git remote set-url --delete origin git@github.com:awaceofspace/cs131
+   78  git push -u origin master
+   79  git remote set-url origin https://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@github.com/awaceofspace/cs131
+   80  git push -u origin master
+   81  git remote set-url origin https://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@github.com/awaceofspace/cs131.git
+   82  git push -u origin master
+   83  git remote set-url origin https://awaceofspace@github.com/awaceofspace/cs131.git
+   84  clear
+   85  git push -u origin master
+   86  git remote set-url origin https://github.com/awaceofspace/cs131.git
+   87  git push -u origin master
+   88  git checkout
+   89  git branch
+   90  git checkout master
+   91  git push origin secondbranch
+   92  git status
+   93  git push origin secondbranch
+   94  cd
+   95  pwd
+   96  ls
+   97  mkdir Worksheet1
+   98  cd Worksheet1/
+   99  git init
+  100  history > cmds.log
+  101  ls
+  102  vi cmds.log 
+  103  git add cmds.log
+  104  vi cmds.log
+  105  git commit
+  106  git commit -m "Worksheet 1 Log"
+  107  git remote add origin https://awaceofspace@github.com/awaceofspace/cs131.git
+  108  git push -u master
+  109  git push -u origin
+  110  git push -u origin master
+  111  git checkout -b ws1
+  112  git branch --delete master
+  113  ls
+  114  git add cmds.log 
+  115  git status
+  116  git push -u origin ws1
+  117  git checkout master
+  118  git checkout upstreambranch
+  119  git branch
+  120  git checkout -b master
+  121  git status
+  122  git add cmds.log
+  123  git status
+  124  ls
+  125  clear
+  126  git checkout upstreambranch
+  127  git checkout ws1
+  128  git branch master ws1 -f
+  129  git checkout master
+  130  git push origin master -f
+  131  cd
+  132  pwd
+  133  ls
+  134  clear
+  135  history
+  136  clear
+  137  ls
+  138  clear
+  139  chrontab -l
+  140  crontab -e
+  141  chrontab -l
+  142  clear
+  143  ls -ltr
+  144  clear
+  145  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  146  ls
+  147  mkdir cs131
+  148  mv Worksheet1/ cs131/
+  149  ls
+  150  cd cs131/
+  151  ls
+  152  mkdir Worksheet2
+  153  ls
+  154  git status
+  155  cd ..
+  156  cd
+  157  ls
+  158  cd cs131/
+  159  cd worksheet1
+  160  cd Worksheet1
+  161  git status
+  162  cd ..
+  163  git init
+  164  git status
+  165  git add Worksheet1/
+  166  git remote add origin https://github.com/awaceofspace/cs131.git
+  167  cd Worksheet2
+  168  cd ..
+  169  pwd
+  170  /mnt/scratch/FA23_CS131_Ashish/acesp24/cs131/Worksheet2
+  171  mv 'Global YouTube Statistics.csv' /mnt/scratch/FA23_CS131_Ashish/acesp24/cs131/Worksheet2
+  172  cd /mnt/scratch/FA23_CS131_Ashish/acesp24/cs131/Worksheet2
+  173  ls
+  174  cd ..
+  175  mv 'Global YouTube Statistics.csv' /mnt/scratch/FA23_CS131_Ashish/acesp24
+  176  cd /mnt/scratch/FA23_CS131_Ashish/acesp24/cs131/Worksheet2
+  177  mv 'Global YouTube Statistics.csv' /mnt/scratch/FA23_CS131_Ashish/acesp24
+  178  cd ..
+  179  clear
+  180  ls
+  181  touch usyoutubers.txt
+  182  touch musicyoutubers.txt
+  183  touch counts.txt
+  184  man grep
+  185  grep "United States" 'Global YouTube Statistics.csv' > usyoutubers.txt 
+  186  vi usyoutubers.txt 
+  187  grep "Music" 'Global YouTube Statistics.csv' > musicyoutubers.txt 
+  188  vi musicyoutubers.txt 
+  189  cat 'Global YouTube Statistics.csv' 
+  190  cat musicyoutubers.txt 
+  191  clear
+  192  grep musicyoutubers.txt 
+  193  ls
+  194  man wc
+  195  wc -wl usyoutubers.txt 
+  196  wc -wl usyoutubers.txt > counts.txt 
+  197  cat counts.txt 
+  198  wc -wl musicyoutubers.txt >> counts.txt 
+  199  cat usyoutubers.txt 
+  200  clear
+  201  cat counts.txt 
+  202  vi counts.txt 
+  203  cat counts.txt 
+  204  wc -w usyoutubers.txt 
+  205  touch cmds.log
+  206  history > cmds.log 

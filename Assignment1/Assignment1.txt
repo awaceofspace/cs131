@@ -1,0 +1,52 @@
+1) Make a directory Assignment1 under your home directory and change it. All your homework for this assignment will be done there.
+
+I used mkdir Assignemnt1 to achieve this.
+
+2) Echo your current Shell using the global variable and paste the output of the command.  Which commands did you use?
+
+I used echo $SHELL since $SHELL is the global variable to find the current shell you are in and the output of this command was /bin/bash showing that I am currently working on the bash shell.
+
+2) Echo your home directory path and paste the output of the command.  Which commands did you use?
+
+I used echo $HOME to get my home directory and the output was /mnt/scratch/FA23_CS131_Ashish/acesp24
+
+3) What is your UID?  To what group(s) do you belong?  How did you find out (command used)?
+
+My UID is 1174 and the groups I belong to are 1174 and S77. To figure this out I used grep acesp24 /etc/passwd/ for the userid and had to use grep acesp24 /etc/group to find all the groups I am in.
+
+4) Create a new directory "myDir" under the Assignment 1 folder. Now remove "write" permission for yourself.(see chmod man page) 
+From this temp directory, are you allowed to cd in that directory? Can you "ls" it?  Can you "ls -l" it? Can you create files under it?
+
+Commands:
+mkdir myDir
+chmod 555 myDir
+I can still cd into the directory. I can still ls the directory. I can still ls -l it. The only thing I can not do is create files under the directory.
+
+5) Create a new directory "myDir2" and create a new directory "myDir3" 
+
+Commands: 
+mkdir myDir2
+mkdir myDir3
+
+6) Inside myDir2, create a file "myFile.txt" (use 'touch' or 'vi' command). Once done, move this file from myDir2 to myDir3 using the mv command.
+
+Commands:
+touch myFile.txt
+mv myFile.txt /mnt/scratch/FA23_CS131_Ashish/acesp24/cs131/Assignment1/myDir3
+
+6) Find the total amount of RAM/Memory in the IBM VM using the 'free' command. Display the amount of memory in mebibytes.
+(Use 'man free' command to learn about it)
+
+Command: free -m
+              total        used        free      shared  buff/cache   available
+Mem:          71367       32680       19485        3505       19201       33723
+Swap:          4119           0        4119
+
+9) Identify the operating system version. Which file under /etc/ contains this information?
+
+Command: cat /etc/os-release/
+"Red Hat Enterprise Linux 8.6 (Oopta)" The file containing this information is /etc/os-release/
+
+10) What is the permission (given to all users) for the file containing the OS version information
+
+According to ls -l /etc/os-release, all users are given read, write, and execute permissions on /etc/os-release

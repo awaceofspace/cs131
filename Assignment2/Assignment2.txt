@@ -1,0 +1,81 @@
+1. Execute this command :
+
+find /etc -type f > one.txt 2> two.txt
+
+a. Explain in simple English what we are trying to do in this command.
+
+This command finds every single regular file within the etc directory and lists them within one.txt. Then, the 2> aspect of the command takes any standard errors that the find command might find and lists themin two.txt.
+
+b. Using the cat command view one.txt and two.txt... In simple English sentences explain your observations about the content found in one.txt and two.txt
+
+one.txt has all the accessible regular file names within the etc directory and two.txt names all of the files that me as a user do not have the permissions to view.
+
+------------
+2. Which [Month, Year] had the most (top 3) YouTube channels created   [ Use the created year and created month columns ] 
+Your answer should contain what commands you used along with the output. 
+Requirement: You should apply cut sort and uniq commands to accomplish this task. You can use commands in addition to these as well but solve the actual problem using cut sort and uniq.
+
+Example :
+As per the Dataset, Top 3 [Month, Year] with the most number of YouTube channels created were :
+1. March,2006 with 15 channels  
+2. July,2014 with 13 channels 
+3. August,2014 with 12 channels
+[ Replace months and years above with your answer ]
+
+The command(s) used to find it was this:
+1. cut -d ',' -f 20,21 Global\ YouTube\ Statistics.csv > created.txt This cut command used the -d modifier to denote that the different columns of information in the given dataset is separated with commas inside of the file. The -f modifier denotes which fields to actually extract from the lines within the data set; 20 and 21 were the created year and created month columns. The cut command cuts every thing out within a file except for the given specifiers. The > created.txt aspect of the command returns the output of the cut command to the created.txt file.
+
+2. sort -no created.txt created.txt The sort command does what it says, it sorts the lines within the given file. The -n modifier makes it so that the lines within the file are sorted numerically and the -o modifier just outputs the command result to a file.
+
+3. uniq -c created.txt > countsCreated.txt The uniq command discards all repreated prints of lines within a file. The -c modifier on top of discarding all the repeated lines tells you how many times the given line was repeated. I redirected this to countsCreated.txt just to have the counts on a separate file.
+
+4. sort -no countsCreated.txt countsCreated.txt This is the same as the second command but for the counts and it was just for me to be able to see the results easier. 
+Explain the command along with the parameters used and the reason for using them.
+------------
+3. Write the command you would use to find all the processes owned by you. Paste the output of the same.
+ps -u $USER
+    PID TTY          TIME CMD
+3530346 ?        00:00:02 systemd
+3530348 ?        00:00:00 (sd-pam)
+3531708 ?        00:00:00 sshd
+3531709 pts/33   00:00:00 bash
+3545978 pts/33   00:00:00 ps 
+------------
+4. Open two terminals and login to the IBM VM.
+a. In the first terminal execute: vi file.txt Do not quit or close the vi prompt screen at this moment and keep it open.
+b. In the second terminal use the same command you used in Q3 and paste the output of it below. What did you notice? What is the Process ID for the vim?
+    PID TTY          TIME CMD
+3530346 ?        00:00:02 systemd
+3530348 ?        00:00:00 (sd-pam)
+3531708 ?        00:00:00 sshd
+3531709 pts/33   00:00:00 bash
+3546158 pts/33   00:00:00 vim
+3546836 ?        00:00:00 sshd
+3546837 pts/34   00:00:00 bash
+3546899 ?        00:00:00 sshd
+3546912 pts/45   00:00:00 bash
+3547025 pts/34   00:00:00 vim
+3547101 pts/45   00:00:00 ps
+I have this text file open in PID 3546158 and the new vi for the second terminal is 3547025. It just added the processes of the other terminals onto the list of all of my other processes as a user.
+
+c. Now go back to the first terminal and quit the vi using: q! option. 
+d. In the second terminal use the same command you used in Q3 and paste the output of it below. what did you notice? What changed and why?
+3530346 ?        00:00:02 systemd
+3530348 ?        00:00:00 (sd-pam)
+3531708 ?        00:00:00 sshd
+3531709 pts/33   00:00:00 bash
+3546158 pts/33   00:00:00 vim
+3546836 ?        00:00:00 sshd
+3546837 pts/34   00:00:00 bash
+3546899 ?        00:00:00 sshd
+3546912 pts/45   00:00:00 bash
+3548972 pts/45   00:00:00 ps
+I noticed that the vim process for that terminal is no longer on the list and this is because of the q! command I used which closed the vim process on file.txt.
+------------
+5. What is the init process in Linux ? Find the process id for the init process. Show the command you used to do this. ( Note: The init process is also called systemd in the flavor we use on IBM VM)
+
+The init process in Linux is the first process that gets started by the kernel when you first boot up the system. The process id for the init process is normally 1 and you can view it by using ps -p 1. The ps command displays information on currently running processes within a system. Using the -p modifier lets you see the process associated with the following PID. If you did not know that the process id of the init process was 1 then you could use the pgrep command. For the IBM VM you would use a command like pgrep -x systemd. The pgrep command is like normal grep but for the active processes on the system and using pgrep helps you search for processes with certain names or other attributes. The -x modifier allows you to name the exact process you are looking for and since init is called systemd in the IBM VM, pgrep -x systemd would return the attributes of systemd including its process ID. 
+------------
+6. Explain the command in not more than 4 sentences:  ps aux
+The ps command deals with displaying active processes with a system. The a modifier lists all running processes by ALL users. The u modifier lengthens the output and gives additional information about the processes including things like CPU usage and memory usage. The x modifier allows for the printing of processes that do not have a TTY attached to them and are normally background processes ran from the root. 
+

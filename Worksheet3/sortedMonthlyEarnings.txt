@@ -1,0 +1,51 @@
+Afghanistan,0
+Andorra,0.34
+Argentina,2600000
+Australia,1600000
+Bangladesh,0
+Barbados,731700
+Brazil,6500000
+Canada,2200000
+Chile,400900
+China,89400
+Colombia,1900000
+Country,highest_monthly_earnings
+Cuba,0.38
+Ecuador,251600
+Egypt,184200
+El Salvador,135400
+Finland,81500
+France,192400
+Germany,3000000
+India,9000000
+Indonesia,2200000
+Iraq,452000
+Italy,4900000
+Japan,2900000
+Jordan,676200
+Kuwait,631600
+Latvia,5000000
+Malaysia,470900
+Mexico,1500000
+Morocco,150300
+nan,8100000
+Netherlands,400200
+Pakistan,5300000
+Peru,4000
+Philippines,3200000
+Russia,2900000
+Samoa,2
+Saudi Arabia,540100
+Singapore,468800
+South Korea,13600000
+Spain,1100000
+Sweden,1900000
+Switzerland,235500
+Thailand,944000
+Turkey,5900000
+Ukraine,1500000
+United Arab Emirates,6400000
+United Kingdom,2000000
+United States,9200000
+Venezuela,14
+Vietnam,1000000

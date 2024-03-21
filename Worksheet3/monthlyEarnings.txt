@@ -1,0 +1,996 @@
+South Korea,13600000
+United States,9200000
+India,9000000
+nan,8100000
+United States,7900000
+India,7300000
+India,6800000
+India,6700000
+India,6600000
+Brazil,6500000
+United Arab Emirates,6400000
+Turkey,5900000
+nan,5500000
+United States,5500000
+United States,5400000
+Pakistan,5300000
+Latvia,5000000
+Italy,4900000
+India,4800000
+United States,4800000
+United States,4700000
+Pakistan,4600000
+South Korea,4300000
+United States,4200000
+India,3900000
+India,3600000
+United States,3600000
+United States,3500000
+India,3300000
+India,3300000
+United States,3300000
+India,3200000
+Philippines,3200000
+Brazil,3000000
+Germany,3000000
+United States,3000000
+India,2900000
+Japan,2900000
+Russia,2900000
+United States,2900000
+United States,2900000
+Japan,2800000
+Pakistan,2700000
+United States,2700000
+United States,2700000
+Argentina,2600000
+Germany,2500000
+Argentina,2400000
+nan,2400000
+South Korea,2400000
+United States,2300000
+Brazil,2200000
+Canada,2200000
+India,2200000
+Indonesia,2200000
+Russia,2200000
+India,2100000
+United States,2100000
+Argentina,2000000
+India,2000000
+nan,2000000
+South Korea,2000000
+United Kingdom,2000000
+United States,2000000
+Colombia,1900000
+nan,1900000
+Russia,1900000
+Sweden,1900000
+United States,1900000
+United States,1900000
+India,1800000
+India,1800000
+United States,1800000
+United States,1800000
+United States,1800000
+India,1700000
+India,1700000
+India,1700000
+India,1700000
+India,1700000
+India,1700000
+nan,1700000
+Turkey,1700000
+Argentina,1600000
+Australia,1600000
+Brazil,1600000
+India,1600000
+India,1600000
+nan,1600000
+nan,1600000
+United States,1600000
+United States,1600000
+Canada,1500000
+India,1500000
+India,1500000
+India,1500000
+Mexico,1500000
+Ukraine,1500000
+United States,1500000
+Colombia,1400000
+India,1400000
+India,1400000
+India,1400000
+India,1400000
+nan,1400000
+United Arab Emirates,1400000
+Colombia,1300000
+India,1300000
+India,1300000
+nan,1300000
+nan,1300000
+nan,1300000
+United Kingdom,1300000
+United States,1300000
+United States,1300000
+United States,1300000
+United States,1300000
+United States,1300000
+United States,1300000
+United States,1300000
+United States,1300000
+United States,1300000
+Argentina,1200000
+Brazil,1200000
+India,1200000
+India,1200000
+India,1200000
+Russia,1200000
+Russia,1200000
+South Korea,1200000
+United States,1200000
+Colombia,1100000
+Colombia,1100000
+India,1100000
+India,1100000
+India,1100000
+India,1100000
+India,1100000
+Indonesia,1100000
+Japan,1100000
+nan,1100000
+Spain,1100000
+United States,1100000
+United States,1100000
+United States,1100000
+United States,1100000
+United States,1100000
+United States,1100000
+United States,1100000
+Brazil,1000000
+India,1000000
+India,1000000
+United Kingdom,1000000
+United States,1000000
+United States,1000000
+Vietnam,1000000
+United Arab Emirates,990900
+United Kingdom,979700
+United States,976400
+India,968700
+United States,954500
+India,945200
+Thailand,944000
+India,942900
+United States,936900
+India,936000
+nan,933600
+India,931000
+India,928100
+nan,926200
+Indonesia,920700
+United States,915800
+Colombia,915600
+India,909400
+Thailand,899000
+United States,886800
+India,868400
+Brazil,859200
+India,855000
+Brazil,854800
+India,850600
+United States,843800
+India,843600
+United States,822400
+nan,822200
+United Kingdom,810900
+Spain,806600
+United States,796100
+United Kingdom,795500
+United States,791800
+Indonesia,789500
+United States,782000
+United States,780800
+India,778400
+Argentina,772700
+Brazil,772700
+Argentina,762700
+United States,755800
+United States,755300
+United States,748000
+India,743900
+United States,742800
+India,739900
+United States,739800
+United States,735500
+Barbados,731700
+Brazil,731500
+Philippines,726600
+Thailand,725500
+India,723800
+United States,721600
+India,720100
+India,719600
+India,716900
+United States,711100
+United States,710400
+Philippines,706500
+Canada,705300
+Indonesia,704200
+United States,703400
+United States,701000
+United States,700400
+Colombia,695300
+United States,679900
+United States,679500
+nan,677000
+Jordan,676200
+Thailand,674400
+South Korea,673200
+India,671600
+United Kingdom,670800
+United States,659600
+United States,656900
+Brazil,654700
+Philippines,652500
+United States,647600
+India,642800
+United States,640900
+United States,640900
+India,639000
+United States,634400
+South Korea,634200
+Kuwait,631600
+Indonesia,628400
+United States,620900
+India,616200
+United States,613100
+United States,611300
+United States,606800
+United States,606800
+India,605900
+United Arab Emirates,604800
+Russia,602300
+India,599200
+Brazil,598200
+United States,597000
+United States,587400
+Brazil,581900
+United States,577800
+United States,572700
+nan,571000
+Philippines,569300
+India,567400
+India,566800
+United States,564800
+Thailand,563000
+Mexico,561600
+United States,561300
+United States,561000
+United States,557800
+United States,557300
+India,556500
+India,556500
+United Kingdom,548400
+Mexico,547300
+Mexico,547000
+Brazil,545600
+India,544300
+United States,542300
+Saudi Arabia,540100
+United States,537600
+United States,537000
+India,534300
+United States,533400
+United States,532800
+United States,528400
+India,524800
+India,522900
+Thailand,521800
+Brazil,521400
+Thailand,520900
+nan,516800
+Colombia,514800
+United States,513800
+United Kingdom,512200
+United States,511900
+United States,510000
+Australia,509800
+United States,509300
+United States,496700
+Mexico,493400
+Indonesia,492800
+United States,491700
+United States,491700
+United States,479200
+United States,477600
+Brazil,473600
+United States,472900
+Malaysia,470900
+Singapore,468800
+Jordan,465700
+Mexico,463500
+United States,463200
+Philippines,461800
+United States,458700
+United States,457000
+India,454300
+United States,454200
+India,453700
+South Korea,452500
+Indonesia,452300
+Iraq,452000
+United States,451900
+Indonesia,451100
+India,450600
+Mexico,449600
+United States,448400
+United States,446000
+United States,445000
+Turkey,443200
+United States,443100
+Brazil,439500
+India,439400
+India,439300
+India,439300
+India,436500
+India,436100
+South Korea,432000
+United States,430100
+Brazil,426900
+India,423900
+United States,423100
+India,422800
+South Korea,422300
+United States,420500
+United States,420500
+United States,414500
+United States,412700
+United States,412000
+United States,410500
+India,409700
+United Kingdom,409600
+India,409400
+India,408900
+India,405400
+Chile,400900
+Netherlands,400200
+Pakistan,400200
+India,398700
+United States,398600
+United States,395300
+United States,395100
+nan,394900
+nan,394600
+United States,393400
+India,393300
+United States,392700
+United States,392200
+United States,391000
+United States,389700
+United States,389100
+nan,386500
+Russia,382400
+United States,381000
+India,380700
+India,379400
+United States,377000
+United Kingdom,375100
+India,372700
+United States,370400
+United States,368900
+United States,365000
+Saudi Arabia,363700
+United States,361800
+Russia,361000
+Mexico,360000
+India,359100
+United States,358300
+United States,356400
+India,356000
+United States,355800
+Canada,355000
+United States,354600
+United States,354500
+Canada,352900
+Brazil,352500
+United States,352000
+Brazil,351200
+Thailand,351000
+Jordan,350600
+India,345800
+United Kingdom,345800
+Colombia,345100
+United Kingdom,343100
+Spain,339500
+United Kingdom,339000
+Vietnam,337900
+Canada,335800
+Argentina,334800
+Brazil,331600
+Thailand,331200
+Spain,330600
+United States,327500
+United States,326600
+Sweden,324900
+United Arab Emirates,320900
+United Arab Emirates,320700
+United States,320200
+United States,317600
+India,314800
+United Kingdom,314700
+India,314600
+United Kingdom,312600
+nan,311700
+Mexico,309900
+United States,308200
+Brazil,307600
+United States,303100
+Ukraine,300600
+India,297900
+nan,296200
+Saudi Arabia,295300
+United States,292100
+India,291600
+Brazil,290700
+Argentina,289000
+Indonesia,287500
+nan,287100
+Ukraine,284500
+Saudi Arabia,282800
+Mexico,282500
+India,281600
+nan,278500
+United States,273400
+United States,272600
+Brazil,272200
+Ukraine,272000
+United States,267500
+Chile,265600
+United Kingdom,265100
+nan,263700
+India,261500
+United States,260300
+South Korea,260000
+India,258900
+Brazil,258100
+Indonesia,258000
+Argentina,256300
+Brazil,256200
+United States,255700
+United States,253800
+United States,253200
+Ecuador,251600
+nan,250800
+Philippines,250600
+United States,244800
+United States,242600
+Spain,242300
+India,239700
+Colombia,239600
+United Kingdom,238500
+India,236800
+Switzerland,235500
+United Kingdom,235400
+India,234100
+Indonesia,233900
+United States,233400
+United States,232500
+India,231200
+United States,227600
+United States,226500
+United Kingdom,226100
+United States,225400
+Brazil,224900
+United Kingdom,222600
+United States,221800
+United States,221500
+Netherlands,220500
+Thailand,220500
+Canada,219800
+Brazil,219100
+United Kingdom,217200
+United Kingdom,216800
+Thailand,216500
+Spain,216000
+United Kingdom,214400
+United States,212800
+United States,212700
+India,210700
+Brazil,209300
+United States,209300
+United States,207300
+United States,206700
+United States,206600
+India,205300
+India,205200
+United Kingdom,204500
+United States,203700
+Mexico,202700
+United States,200800
+India,199400
+United States,199300
+India,198600
+Thailand,198200
+United States,197600
+Canada,196000
+Russia,195800
+Russia,195800
+India,195000
+India,193800
+United States,193100
+Brazil,192900
+nan,192800
+Indonesia,192700
+France,192400
+Brazil,192100
+Spain,189700
+Ukraine,188500
+Mexico,187400
+United States,186400
+United States,185900
+nan,184800
+Egypt,184200
+United States,183300
+Indonesia,183200
+United States,183200
+United States,182800
+United States,182600
+Thailand,182500
+United States,180400
+Mexico,178300
+United States,178200
+Brazil,178000
+United Kingdom,177700
+United States,176600
+Brazil,176500
+Brazil,176000
+United States,175500
+Spain,175300
+India,174700
+Indonesia,174300
+United States,173600
+United States,173600
+India,172500
+United States,172500
+Saudi Arabia,172000
+Indonesia,171300
+United States,170800
+United States,170200
+United States,167200
+Thailand,166700
+United Kingdom,166700
+India,165200
+United States,164400
+Brazil,163900
+South Korea,163200
+nan,161700
+United States,160400
+Brazil,159100
+Brazil,158000
+United Kingdom,156900
+Japan,156700
+Spain,156400
+United Kingdom,154400
+Russia,153100
+India,152700
+India,150600
+United States,150500
+Morocco,150300
+India,148700
+Russia,148700
+United States,147200
+United Kingdom,146700
+United States,145400
+United States,145400
+Netherlands,143700
+Argentina,142200
+United States,142100
+Brazil,141300
+Iraq,141300
+United Kingdom,141200
+Vietnam,140500
+United States,140100
+United Kingdom,139000
+India,137800
+Mexico,135500
+El Salvador,135400
+Mexico,134400
+India,133900
+Brazil,132100
+Egypt,131700
+United Kingdom,131300
+Canada,130200
+India,128400
+United States,128000
+India,127300
+Brazil,127200
+Mexico,125800
+Mexico,124000
+India,123900
+United States,123900
+India,123000
+United States,122700
+Mexico,122000
+France,121900
+United States,119800
+Italy,119500
+United States,119500
+United States,118900
+India,118800
+Brazil,118100
+nan,117500
+United States,117500
+Germany,117100
+United States,116700
+Ukraine,116000
+United States,115100
+India,114700
+India,114400
+Brazil,113100
+India,111900
+United Kingdom,111800
+India,111500
+United Kingdom,111200
+Argentina,110200
+Mexico,109800
+United States,109500
+United States,109500
+Brazil,109400
+Indonesia,109200
+United States,108100
+Indonesia,107900
+United States,107500
+Mexico,107100
+Brazil,106700
+United States,106700
+Mexico,106100
+United States,105700
+India,104700
+Australia,104300
+nan,104200
+United States,103600
+United States,103000
+India,102400
+India,101300
+United States,101100
+India,98900
+United States,98800
+Russia,98300
+Colombia,97500
+United States,97500
+India,96200
+Spain,96100
+India,96000
+Brazil,95600
+India,95600
+Australia,93100
+United States,92800
+India,92100
+United States,91900
+United States,90900
+China,89400
+United States,89200
+India,89000
+India,88900
+United States,87800
+nan,87300
+United States,87200
+United States,86300
+Indonesia,85800
+United States,84400
+Australia,84300
+India,84200
+Finland,81500
+India,81100
+India,81100
+United States,80000
+Indonesia,79000
+Brazil,76100
+United States,75900
+United States,74200
+India,74100
+Canada,72500
+Brazil,72200
+United States,72100
+United States,71800
+Brazil,70400
+United States,69900
+India,69100
+nan,69100
+United States,69000
+Indonesia,68900
+Indonesia,68300
+United States,67100
+nan,66900
+Ecuador,65600
+Spain,65300
+Mexico,64600
+United States,64500
+United States,63900
+United States,62800
+United Arab Emirates,62200
+Australia,62100
+Spain,61600
+United States,61400
+nan,61200
+United States,61100
+Philippines,60300
+United States,59400
+United States,58600
+United States,58000
+United States,57700
+India,57100
+India,55600
+Spain,55400
+Brazil,55200
+Sweden,54800
+nan,54100
+nan,54000
+Indonesia,53700
+United States,53000
+India,52600
+United States,51600
+Thailand,50000
+Philippines,49500
+Spain,48600
+Philippines,48400
+Spain,48000
+United States,47800
+India,46000
+France,45700
+South Korea,44400
+India,44300
+United States,44200
+Spain,44000
+United States,43600
+Philippines,43400
+United States,43400
+United States,43200
+India,43100
+United States,43100
+Brazil,42200
+Mexico,41100
+United Kingdom,40900
+Brazil,40800
+Spain,40300
+Philippines,39900
+United States,39700
+United States,39600
+Indonesia,38500
+Canada,38400
+Thailand,37400
+United States,36400
+Mexico,35500
+Russia,35100
+United States,34600
+United States,34500
+United Kingdom,33900
+United States,33500
+India,30500
+Brazil,29800
+United States,28700
+Brazil,28600
+nan,27800
+nan,27800
+United States,24500
+Spain,23900
+United States,23800
+India,23700
+nan,23100
+Germany,22600
+United Kingdom,21800
+Brazil,21700
+Canada,21500
+Canada,21300
+South Korea,19800
+United States,19100
+Mexico,18800
+Saudi Arabia,18700
+United States,18400
+Turkey,17700
+United States,16900
+South Korea,16000
+Sweden,15500
+United States,15100
+Brazil,14500
+United States,14200
+United Kingdom,12300
+Brazil,12200
+Brazil,11400
+nan,11300
+United States,10900
+Saudi Arabia,10800
+United States,9900
+Mexico,9500
+United States,8000
+United States,7700
+United States,7000
+United States,6500
+Saudi Arabia,6400
+United States,6300
+India,5600
+South Korea,5500
+United States,5300
+United States,5300
+India,4200
+Peru,4000
+Singapore,3800
+India,3400
+Indonesia,3400
+Indonesia,3200
+United States,1900
+United States,1800
+United States,1700
+Mexico,1300
+Spain,906
+Brazil,591
+United Kingdom,268
+Spain,262
+nan,243
+Germany,152
+United States,152
+United States,150
+nan,127
+United States,119
+United States,110
+United States,83
+nan,81
+United States,65
+Mexico,62
+nan,42
+Pakistan,35
+Russia,31
+nan,29
+United States,25
+Mexico,19
+Venezuela,14
+Japan,10
+United Kingdom,6
+India,4
+France,3
+France,3
+nan,2
+nan,2
+Pakistan,2
+Samoa,2
+United Kingdom,1
+United States,0.99
+nan,0.64
+Australia,0.59
+nan,0.5
+Ukraine,0.42
+Spain,0.41
+United States,0.4
+Cuba,0.38
+Andorra,0.34
+Indonesia,0.34
+nan,0.34
+United States,0.25
+nan,0.21
+Chile,0.2
+nan,0.13
+nan,0.12
+Australia,0.1
+Thailand,0.09
+United States,0.09
+nan,0.08
+nan,0.07
+Argentina,0.06
+nan,0.06
+United States,0.06
+United States,0.05
+India,0.04
+nan,0.04
+India,0.03
+nan,0.03
+nan,0.03
+nan,0.02
+nan,0.02
+nan,0.02
+nan,0.02
+nan,0.02
+Spain,0.02
+United States,0.02
+India,0.01
+nan,0.01
+nan,0.01
+nan,0.01
+nan,0.01
+nan,0.01
+nan,0.01
+nan,0.01
+nan,0.01
+nan,0.01
+nan,0.01
+United States,0.01
+Afghanistan,0
+Australia,0
+Bangladesh,0
+Brazil,0
+Brazil,0
+Brazil,0
+Brazil,0
+Canada,0
+Canada,0
+Country,highest_monthly_earnings
+Germany,0
+India,0
+India,0
+India,0
+India,0
+India,0
+Indonesia,0
+Mexico,0
+Mexico,0
+Mexico,0
+Mexico,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+nan,0
+Russia,0
+Saudi Arabia,0
+Singapore,0
+South Korea,0
+Thailand,0
+Ukraine,0
+United Kingdom,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0

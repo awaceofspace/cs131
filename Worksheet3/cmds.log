@@ -1,0 +1,113 @@
+  530  head Global\ YouTube\ Statistics.csv 
+  531  cut -d ',' -f 16 Global\ YouTube\ Statistics.csv 
+  532  cut -d ',' -f 16 Global\ YouTube\ Statistics.csv > monthlyEarnings.txt
+  533  cut -d ',' -f 5,16 Global\ YouTube\ Statistics.csv > monthlyEarnings.txt
+  534  head monthlyEarnings.txt 
+  535  cut -d ',' -f 8,16 Global\ YouTube\ Statistics.csv > monthlyEarnings.txt
+  536  head monthlyEarnings.txt 
+  537  cut -d ',' -f 16,8 Global\ YouTube\ Statistics.csv > monthlyEarnings.txt
+  538  head monthlyEarnings.txt 
+  539  man sort
+  540  man cut
+  541  man sort
+  542  sort -k 1 -o  monthlyEarnings.txt monthlyEarnings.txt 
+  543  head monthlyEarnings.txt 
+  544  tail monthlyEarnings.txt 
+  545  sort -k 2n -o monthlyEarnings.txt monthlyEarnings.txt 
+  546  tail monthlyEarnings.txt 
+  547  sort -nk 2 monthlyEarnings.txt 
+  548  sort -n monthlyEarnings.txt | head 
+  549  sort -nkr 2 monthlyEarnings.txt 
+  550  sort -nrk 2 monthlyEarnings.txt 
+  551  clear
+  552  sort monthlyEarnings.txt -k 2n | head
+  553  sort monthlyEarnings.txt -k 1n | head
+  554  sort monthlyEarnings.txt -k 3n | head
+  555  sort monthlyEarnings.txt -nk 2 | head
+  556  sort monthlyEarnings.txt -k 2nr | head
+  557  man sort
+  558  sort monthlyEarnings.txt -k 2nr -t ',' | head
+  559  sort monthlyEarnings.txt -k 2nr -t ',' -o monthlyEarnings.txt 
+  560  head monthlyEarnings.txt 
+  561  more
+  562  man more
+  563  sort monthlyEarnings.txt -k 1  2nr -t ',' -o monthlyEarnings.txt 
+  564  cat monthlyEarnings.txt 
+  565  uniq monthlyEarnings.txt > sortedMonthlyEarnings.txt
+  566  cat sortedMonthlyEarnings.txt 
+  567  uniq -f 1 sortedMonthlyEarnings.txt 
+  568  uniq -f 2 sortedMonthlyEarnings.txt 
+  569  man uniq
+  570  uniq -f 1 sortedMonthlyEarnings.txt 
+  571  head monthlyEarnings.txt 
+  572  uniq -f 1 sortedMonthlyEarnings.txt |head
+  573  uniq -f 2 sortedMonthlyEarnings.txt |head
+  574  uniq -f 2 sortedMonthlyEarnings.txt | head
+  575  uniq -f 2 sortedMonthlyEarnings.txt 
+  576  uniq -f 2 monthlyEarnings.txt 
+  577  uniq -fu 2 monthlyEarnings.txt 
+  578  uniq -u -f 2 monthlyEarnings.txt 
+  579  uniq -u monthlyEarnings.txt 
+  580  clear
+  581  ls
+  582  head monthlyEarnings.txt 
+  583  sort monthlyEarnings.txt -k 2nr -t ',' -k 1u | head
+  584  sort monthlyEarnings.txt -k 2nr -k 1u -t ',' | head
+  585  sort monthlyEarnings.txt -k 1u,2nr -t ',' | head
+  586  clear
+  587  man sort
+  588  sort -u -t ',' -k1,1 monthlyEarnings.txt > sortedMonthlyEarnings.txt 
+  589  sort
+  590  sort -u -t ',' -k1,1 monthlyEarnings.txt
+  591  cat monthlyEarnings.txt 
+  592  clear
+  593  vi ws3.txt
+  594  grep -i "United States" sortedMonthlyEarnings.txt > ws3.txt 
+  595  vi ws3.txt 
+  596  grep -i "India" sortedMonthlyEarnings.txt >> ws3.txt 
+  597  view ws3.txt 
+  598  grep -i "United Kingdom" sortedMonthlyEarnings.txt >> ws3.txt 
+  599  view ws3.txt 
+  600  head Global\ YouTube\ Statistics.csv 
+  601  cut -d ',' -f 3,5 Global\ YouTube\ Statistics.csv > subCount.txt
+  602  head subCount.txt 
+  603  sort -no subCount.txt subCount.txt 
+  604  head subCount.txt 
+  605  tail subCount.txt 
+  606  sort -nor subCount.txt subCount.txt 
+  607  head subCount.txt 
+  608  clear
+  609  cat subCount.txt 
+  610  sort -rno subCount.txt subCount.txt 
+  611  cat subCount.txt 
+  612  clear
+  613  head subCount.txt 
+  614  sort -u -t ',' -k2,2 subCount.txt 
+  615  sort -u -t ',' -k2,2 subCount.txt > sortedSubCount.txt
+  616  grep "Sports" sortedSubCount.txt >> ws3.txt 
+  617  grep "Education" sortedSubCount.txt >> ws3.txt 
+  618  grep "Entertainment" sortedSubCount.txt >> ws3.txt 
+  619  view ws3.txt 
+  620  view subCount.txt 
+  621  view sortedSubCount.txt 
+  622  view subCount.txt 
+  623  view ws3.txt 
+  624  view subCount.txt 
+  625  vi ws3.txt 
+  626  mv ws3.txt Worksheet3/
+  627  ls
+  628  cat r 
+  629  clear
+  630  rm r
+  631  ls
+  632  mv monthlyEarnings.txt Worksheet3
+  633  mv sortedMonthlyEarnings.txt Worksheet3
+  634  mv sortedSubCount.txt Worksheet3
+  635  mv subCount.txt Worksheet3
+  636  ls
+  637  cd Worksheet3
+  638  ls
+  639  history > cmds.log
+  640  vi cmds.log 
+  641  vi cmds.log
+  642  history > cmds.log

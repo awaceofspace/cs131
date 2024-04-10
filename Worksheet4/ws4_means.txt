@@ -1,0 +1,2 @@
+The average subscriber count for YouTubers in the data set from United States is 23416900. 
+The average subscriber count for Youtubers in the data set from Japan is 37820000.

@@ -1,0 +1,144 @@
+  784  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/last.fake
+  785  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/passwd.fake
+  786  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/ps.fake
+  787  ls
+  788  history|tail
+  789  cd cs131/
+  790  ls
+  791  cd ..
+  792  mv last.fake cs131/
+  793  mv passwd.fake cs131/
+  794  mv ps.fake cs131/
+  795  cd cs131
+  796  ls
+  797  view last.fake
+  798  awk
+Task 1:
+---------------- 
+  799  awk '/sp24/ {print}' last.fake > lastsp24.fake
+  800  vi lastsp24.fake 
+  801  vi last.fake 
+  802  vi lastsp24.fake 
+  803  cd Assignment
+  804  cd Assignment3
+  805  vi Assignment3.txt 
+  806  man wc
+  807  cd ..
+  808  wc -l last.fake
+  809  wc -l lastsp24.fake 
+  810  vi lastsp24.fake
+Task 2:
+---------------- 
+  811  grep "Sun" lastsp24.fake |awk '{print $1}' | uniq| awk'BEGIN{print "The list of people who worked on Sunday are:"} {print} END{print "Kudos to these people for putting in the work"}'
+  812  grep "Sun" lastsp24.fake |awk '{print $1}' | uniq| awk 'BEGIN{print "The list of people who worked on Sunday are:"} {print} END{print "Kudos to these people for putting in the work"}'
+  813  grep "Sun" lastsp24.fake |awk '{print $1}' | uniq| awk 'BEGIN{print "The list of people who worked on Sunday are:"} {print} END{print "Kudos to these people for putting in the work"}' >> Assignment3/Assignment3.t
+  814  vi last.fake 
+  815  man awl
+  816  man awk
+  817  vi last.fake 
+  818  cd cs131/
+  819  cd Assignment3
+  820  vi Assignment3.txt 
+  821  ls
+  822  cd cs131/
+  823  ls
+  824  vi lastsp24.fake
+Task 3:
+---------------- 
+  825  awk '$4 ~ /23:|0[0-4]/ {print $1}' lastsp24.fake 
+  826  awk '/23:|0[0-4]/ {print $1}' lastsp24.fake 
+  827  vi lastsp24.fake 
+  828  awk '$4 ~ /^(23:||0[0-4])/ {print $1}' lastsp24.fake 
+  829  vi lastsp24.fake 
+  830  awk '$4 ~ /^(23:||0[0-4])/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN{print "Night Owls List:"} {print} END{print "Night Owls are dope. Please ensure you get enough sleep though."}
+lastsp24.fake 
+
+  831  awk '$4 ~ /^(23:||0[0-4])/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN{print "Night Owls List:"} {print} END{print "Night Owls are dope. Please ensure you get enough sleep though."} lastsp.fake
+  832  awk '$4 ~ /^(23:||0[0-4])/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN{print "Night Owls List:"} {print} END{print "Night Owls are dope. Please ensure you get enough sleep though."}'
+  833  awk '$4 ~ /^(23:||0[0-4])/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN{print "Night Owls List:"} {print} END{print "Night Owls are dope. Please ensure you get enough sleep though."}' > nightowls.txt
+  834  vi nightowls.txt 
+  835  vi lastsp24.fake 
+  836  awk '$4 ~ /^(23:||0[0-4])/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN{print "Night Owls List:"} {print} END{print "Night Owls are dope. Please ensure you get enough sleep though."}' >> Assignment3/Assignment3.txt 
+  837  awk '$4 ~ /23:||0[0-4]/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN{print "Night Owls List:"} {print} END{print "Night Owls are dope. Please ensure you get enough sleep though."}' > nightowls.txt 
+  838  vi nightowls.txt 
+  839  awk '$4 ~ /^(23:||0[0-4])/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN{print "Night Owls List:"} {print} END{print "Night Owls are dope. Please ensure you get enough sleep though."}' > nightowls.txt
+  840  vi nightowls.txt 
+  841  awk '$4 ~ /0[5-9]/ {print}' lastsp24.fake |sort|uniq
+  842  awk '$4 ~ /^(0[5-9)]/ {print}' lastsp24.fake |sort|uniq 
+  843  awk '$4 ~ /^(0[5-9])/ {print}' lastsp24.fake |sort|uniq 
+  844  awk '$4 ~ /^(0[5-9])/ {print}' lastsp24.fake |sort|uniq > random.txt
+  845  vi random.txt 
+  846  awk '$4 ~ /^(0[5-9])/ {print $1}' lastsp24.fake |sort|uniq > random.txt
+  847  vi random.txt 
+  848  awk '$4 ~ /0[5-9]:||09:/ {print}' lastsp24.fake |sort|uniq > random.txt 
+  849  vi random.txt 
+  850  awk '$NF ~ /^(23:||0[0-4])/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN{print "Night Owls List:"} {print} END{print "Night Owls are dope. Please ensure you get enough sleep though."}' > nightowls.txt
+  851  vi nightowls.txt 
+  852  awk '$NF ~ /0[5-9]:||09:/ {print}' lastsp24.fake |sort|uniq > random.txt 
+  853  vi random.txt 
+  854  awk '$4 ~ /0[5-9]:||09:/ {print $1}' lastsp24.fake |sort|uniq > random.txt 
+  855  vi random.txt 
+  856  awk 'print{$4}' lastsp24.fake 
+  857* 
+  858  awk '{print $7}' lastsp24.fake 
+  859  awk '{print $6}' lastsp24.fake 
+  860  vi lastsp24.fake 
+  861  awk '$7 ~ /23:||0[0-4]:/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN{print "Night Owls List:"} {print} END{print "Night Owls are dope. Please ensure you get enough sleep though."}' > nightowls.txt
+  862  vi nightowls.txt 
+  863  awk '$7 ~ /^(23:||0[0-4]:)/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN{print "Night Owls List:"} {print} END{print "Night Owls are dope. Please ensure you get enough sleep though."}' > nightowls.txt
+  864  vi nightowls.txt 
+  865  awk '{split($7, time, ":"); hour = time[1] + 0; if (hour >= 23|| hour<=4) print $1}' lastsp24.fake 
+  866  awk '{split($7, time, ":"); hour = time[1] + 0; if (hour >= 23|| hour<=4) print $1}' lastsp24.fake |sort| uniq| > nightowls.txt 
+  867  vi nightowls.txt 
+  868  awk '{split($7, time, ":"); hour = time[1] + 0; if (hour >= 23|| hour<=4) print $1}' lastsp24.fake |sort| uniq|
+  869  awk '{split($7, time, ":"); hour = time[1] + 0; if (hour >= 23|| hour<=4) print $1}' lastsp24.fake |sort| uniq
+  870  awk '{split($7, time, ":"); hour = time[1] + 0; if (hour >= 23|| hour<=4) print $1}' lastsp24.fake |sort| uniq| > Assignment3/Assignment3.txt 
+  871  history
+  872  wc -l last.fake 
+  873  wc -l lastsp24.fake 
+  874  grep "Sun" lastsp24.fake |awk '{print $1}' | uniq| awk 'BEGIN{print "The list of people who worked on Sunday are:"} {print} END{print "Kudos to these people for putting in the work"}' >> Assignment3/Assignment3.txt 
+  875  awk '{split($7, time, ":"); hour = time[1] + 0; if (hour >= 23|| hour<=4) print $1}' lastsp24.fake |sort| uniq| awk 'BEGIN{print  
+  876  awk '{split($7, time, ":"); hour = time[1] + 0; if (hour >= 23|| hour<=4) print $1}' lastsp24.fake |sort| uniq| awk 'BEGIN{print "Night Owls List:"} {print} {END{print "Night Owls are dope. Please ensure you get enough sleep though."}' >> Assignment3/Assignment3.txt 
+  877  awk '{split($7, time, ":"); hour = time[1] + 0; if (hour >= 23|| hour<=4) print $1}' lastsp24.fake |sort| uniq| awk 'BEGIN{print "Night Owls List:"} {print} END{print "Night Owls are dope. Please ensure you get enough sleep though."}' >> Assignment3/Assignment3.txt 
+  878  awk '{split($7, time, ":"); hour = time[1]; if (hour >= 23|| hour<=4) print $1}' lastsp24.fake |sort| uniq| awk 'BEGIN{print "Night Owls List:"} {print} END{print "Night Owls are dope. Please ensure you get enough sleep though."}' > nightowls.txt 
+  879  vi nightowls.txt 
+  880  awk 'split($7, time, ":"); hour = time[1]; if (hour >= 5 && hour<=9) print$1}' lastsp24.fake |sort|uniq > random.txt 
+  881  awk '{split($7, time, ":"); hour = time[1]; if (hour >= 5 && hour<=9) print $1}' lastsp24.fake |sort|uniq > random.txt 
+  882  vi random.txt 
+  883  awk '{split($7, time, ":"); hour = time[1]; if (hour >= 23 && hour<=4) print $1}' lastsp24.fake |sort| uniq| awk 'BEGIN{print "Night Owls List:"} {print} END{print "Night Owls are dope. Please ensure you get enough sleep though."}' > nightowls.txt 
+  884  vi nightowls.txt 
+  885  awk '{split($7, time, ":"); hour = time[1]; if (hour >= 23|| hour<=4) print $1}' lastsp24.fake |sort| uniq| awk 'BEGIN{print "Night Owls List:"} {print} END{print "Night Owls are dope. Please ensure you get enough sleep though."}' >> Assignment3/Assignment3.txt
+Task 4:
+------------------- 
+  886  awk '{split($7, time, ":"); hour = time[1]; if (hour >= 5 && hour<=9) print $1}' lastsp24.fake |sort|uniq| awk 'BEGIN{print "Early Birds List:" {print} END{print "Early Birds are dope. Please ensure you get enough sleep though."}'
+  887  awk '{split($7, time, ":"); hour = time[1]; if (hour >= 5 && hour<=9) print $1}' lastsp24.fake |sort|uniq| awk 'BEGIN{print "Early Birds List:"} {print} END{print "Early Birds are dope. Please ensure you get enough sleep though."}'
+  888  awk '{split($7, time, ":"); hour = time[1]; if (hour >= 5 && hour<=9) print $1}' lastsp24.fake |sort|uniq| awk 'BEGIN{print "Early Birds List:"} {print} END{print "Early Birds are dope. Please ensure you get enough sleep though."}' >> Assignment3/Assignment3.txt
+Task 5:
+------------------- 
+  889  awk '$1 ~ /[^t]/ {print $1}' lastsp24.fake 
+  890  awk '$1 ~ /^t/ {print $1}' lastsp24.fake 
+  891  awk '$1 ~ /^t/ {print $1}' lastsp24.fake | sort | uniq
+  892  awk '$1 ~ /^t/ {print $1}' lastsp24.fake | sort | uniq >> Assignment3/Assignment3.txt
+Task 7:
+------------------- 
+  893  view passwd.fake 
+  894  awk '$1 ~ /^t/ && $3 % 2 == 0' passwd.fake 
+  895  awk '$1 ~ /^a/ && $3 % 2 == 0' passwd.fake 
+  896  awk -F: '$1 ~ /^a/ && $3 % 2 == 0' passwd.fake 
+  897  awk -F: '$1 ~ /^t/ {print $1}' lastsp24.fake | sort | uniq
+  898  awk -F: '$1 ~ /^a/ && $3 % 2 == 0' passwd.fake 
+  899  awk -F: '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake 
+  900  awk -F: '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake >> Assignment3/Assignment3.txt
+Task 8:
+------------------- 
+  901  man sed
+  902  sed 's/[a-zA-Z0-9/g' passwd.fake 
+  903  sed 's/[a-zA-Z0-9]/g' passwd.fake 
+  904  sed 's/[a-zA-Z0-9]//g' passwd.fake 
+  905  sed 's/[a-zA-Z0-9]//g' passwd.fake |sort -u
+  906  sed 's/[[a-zA-Z0-9] ]//g' passwd.fake |sort -u
+  907  sed 's/[a-zA-Z0-9 ]//g' passwd.fake |sort -u
+  908  sed 's/[a-zA-Z0-9 ]//g' passwd.fake |sort -u >> Assignment3/Assignment3.txt 
+  909  cd Assignment
+  910  cd Assignment3
+  911  history > cmds.log

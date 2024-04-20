@@ -1,0 +1,157 @@
+Task 1:
+Commands:
+1. wc -l last.fake
+2. awk '/sp24/ {print}' last.fake > lastsp.fake
+3. wc -l lastsp.fake
+
+Output:
+1. 507
+2. All sp24 users in last.fake into lastsp24.fake
+3. 478
+
+Task 2:
+Command: 
+grep "Sun" lastsp24.fake |awk '{print $1}' | uniq| awk 'BEGIN{print "The list of people who worked on Sunday are:"} {print} END{print "Kudos to these people for putting in the work"}' >> Assignment3/Assignment3.txt
+Output:
+
+The list of people who worked on Sunday are:
+breannasp24
+swansp24
+breannasp24
+michellesp24
+billysp24
+gavinsp24
+chih-kuosp24
+megansp24
+fnusp24
+akashsp24
+briansp24
+megansp24
+xuebosp24
+aayushsp24
+Kudos to these people for putting in the work
+
+Command:
+awk '{split($7, time, ":"); hour = time[1]; if (hour >= 23|| hour<=4) print $1}' lastsp24.fake |sort| uniq| awk 'BEGIN{print "Night Owls List:"} {print} END{print "Night Owls are dope. Please ensure you get enough sleep though."}' >> Assignment3/Assignment3.txt
+ 
+Output:
+Night Owls List:
+aarushisp24
+aayushsp24
+ajaysp24
+akashsp24
+albertsp24
+alexsp24
+amansp24
+athishsp24
+ayesp24
+benjaminsp24
+bennysp24
+billysp24
+brandonsp24
+breannasp24
+briansp24
+chih-kuosp24
+connersp24
+daosp24
+davidsp24
+diyasp24
+dylansp24
+edisonsp24
+ericsp24
+farihasp24
+fnusp24
+gavinsp24
+georgesp24
+gradysp24
+gursimransp24
+jadonsp24
+jaydevsp24
+jessesp24
+jimmysp24
+justinsp24
+khushisp24
+kobesp24
+madhavsp24
+manassp24
+matthewsp24
+maysp24
+megansp24
+michellesp24
+nicholsonsp24
+nicolesp24
+piercesp24
+rickysp24
+robertosp24
+robertsp24
+ronsp24
+sandrasp24
+sangsp24
+sheelsp24
+sunidhisp24
+swansp24
+taliasp24
+tanishasp24
+tylermsp24
+tylersp24
+vaikuntamsp24
+xiaokesp24
+xuebosp24
+yelinsp24
+zakisp24
+Night Owls are dope. Please ensure you get enough sleep though.
+
+Task 4:
+Command:
+awk '{split($7, time, ":"); hour = time[1]; if (hour >= 5 && hour<=9) print $1}' lastsp24.fake |sort|uniq| awk 'BEGIN{print "Early Birds List:"} {print} END{print "Early Birds are dope. Please ensure you get enough sleep though."}' >> Assignment3/Assignment3.txt
+Output: 
+Early Birds List:
+aayushsp24
+ajaysp24
+ericsp24
+gradysp24
+ronsp24
+Early Birds are dope. Please ensure you get enough sleep though.
+
+Task 5:
+Command:
+awk '$1 ~ /^t/ {print $1}' lastsp24.fake | sort | uniq
+Output:
+taliasp24
+tanishasp24
+tylermsp24
+tylersp24
+
+Task 6:
+Command:
+awk -F: '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake >> Assignment/Assignment3.txt
+Output:
+angie23fa
+areebah23fa
+apple23fa
+ajay23fa
+alan23fa
+amreenf23
+acesp24
+akashsp24
+ayesp24
+alexsp24
+aayushsp24
+ajaysp24
+ashish
+amansp24
+
+Task 7:
+Command:
+sed 's/[a-zA-Z0-9 ]//g' passwd.fake |sort -u
+Output:
+-::::-:/://
+-:::::///-://
+-:::::///__/-://
+-:::::/://
+::::-:///://
+:::::///://
+:::::///_/://
+:::::///__/://
+::::://://
+:::::/://

@@ -32,7 +32,7 @@ aayushsp24
 Kudos to these people for putting in the work
 
 Command:
-awk '{split($7, time, ":"); hour = time[1]; if (hour >= 23|| hour<=4) print $1}' lastsp24.fake |sort| uniq| awk 'BEGIN{print "Night Owls List:"} {print} END{print "Night Owls are dope. Please ensure you get enough sleep though."}' >> Assignment3/Assignment3.txt
+awk '{split($(NF-3), time, ":"); hour = time[1]; if (hour >= 23|| hour<=4) print $1}' lastsp24.fake |sort| uniq| awk 'BEGIN{print "Night Owls List:"} {print} END{print "Night Owls are dope. Please ensure you get enough sleep though."}' >> Assignment3/Assignment3.txt
  
 Output:
 Night Owls List:
@@ -45,29 +45,20 @@ alexsp24
 amansp24
 athishsp24
 ayesp24
-benjaminsp24
-bennysp24
 billysp24
 brandonsp24
 breannasp24
-briansp24
-chih-kuosp24
-connersp24
 daosp24
 davidsp24
 diyasp24
 dylansp24
 edisonsp24
-ericsp24
-farihasp24
-fnusp24
 gavinsp24
 georgesp24
 gradysp24
 gursimransp24
 jadonsp24
 jaydevsp24
-jessesp24
 jimmysp24
 justinsp24
 khushisp24
@@ -77,20 +68,13 @@ manassp24
 matthewsp24
 maysp24
 megansp24
-michellesp24
-nicholsonsp24
 nicolesp24
-piercesp24
-rickysp24
 robertosp24
-robertsp24
 ronsp24
 sandrasp24
 sangsp24
 sheelsp24
 sunidhisp24
-swansp24
-taliasp24
 tanishasp24
 tylermsp24
 tylersp24

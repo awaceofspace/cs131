@@ -1,0 +1,113 @@
+  970  mkdir Worksheet5
+  971  vi Worksheet5.sh
+  972  ls
+  973  echo $SHELL
+  974  vi Worksheet5.sh 
+  975  man read
+  976  view 'Global YouTube Statistics.csv' 
+  977  vi Worksheet5.sh 
+  978  ls -latr
+  979  chmod u+x Worksheet5.sh
+  980  ls -latr
+  981  ./Worksheet5.sh 
+  982  ls
+  983  cd Worksheet5
+  984  ls
+  985  cd United\ States/
+  986  ls
+  987  vi Comedy.txt 
+  988  cd ..
+  989  vi ws5.txt 
+  990  ls
+  991  rm 'United States'/
+  992  rm -r 'United States'/
+  993  ls
+  994  rm ws5.txt 
+  995  ls
+  996  cd ..
+  997  ls
+  998  vi Worksheet
+  999  ls
+ 1000  vi Worksheet5.sh 
+ 1001  ./Worksheet5.sh 
+ 1002  cd Worksheet5
+ 1003  ls
+ 1004  cd United\ States/
+ 1005  ls
+ 1006  vi Comedy.txt 
+ 1007  cd ..
+ 1008  rm ws5.txt 
+ 1009  rm -r 'United States'/
+ 1010  cd ..
+ 1011  vi Worksheet5.sh 
+ 1012  ./Worksheet5.sh 
+ 1013  cd Worksheet5
+ 1014  ls
+ 1015  cd United\ States/
+ 1016  ls
+ 1017  vi Comedy.txt 
+ 1018  cd ..
+ 1019  vi ws5.txt 
+ 1020  cd ..
+ 1021  vi Global\ YouTube\ Statistics.csv 
+ 1022  awk -F ',' '$5 ~ /Comedy/ && $8 ~ /United States/ {print}' Global\ YouTube\ Statistics.csv > comedyUS.txt
+ 1023  view comedyUS.txt 
+ 1024  wc -l comedyUS.txt 
+ 1025  cd Worksheet5
+ 1026  vi ws5.txt 
+ 1027  cd ..
+ 1028  view comedyUS.txt 
+ 1029  cd Worksheet5
+ 1030  cd United\ States/
+ 1031  vi Comedy.txt 
+ 1032  cd ..
+ 1033  rm -r United\ States/
+ 1034  rm ws5.txt 
+ 1035  cd ..
+ 1036  vi Worksheet5.sh 
+ 1037  ./Worksheet5.sh 
+ 1038  cd Worksheet5
+ 1039  cd United\ States/
+ 1040  vi Comedy.txt 
+ 1041  cd ..
+ 1042  vi Global\ YouTube\ Statistics.csv 
+ 1043  vi Worksheet5.sh
+ 1044  cd Worksheet5
+ 1045  ls
+ 1046  rm -r United\ States/
+ 1047  rm ws5.txt 
+ 1048  cd ..
+ 1049  ./Worksheet5.sh 
+ 1050  cd Worksheet5
+ 1051  ls
+ 1052  vi ws5.txt 
+ 1053  cd United\ States/
+ 1054  ls
+ 1055  cd ..
+ 1056  rm -r United\ States/
+ 1057  rm ws5.txt 
+ 1058  cd ..
+ 1059  vi Worksheet5.sh 
+ 1060  vi Worksheet5.sh
+ 1061  ./Worksheet5.sh 
+ 1062  cd Worksheet5
+ 1063  cd United\ States/
+ 1064  ls
+ 1065  vi Comedy.txt 
+ 1066  cd ..
+ 1067  vi ws5.txt 
+ 1068  cd ..
+ 1069  vi comedyUS.txt 
+ 1070  awk -F ',' '$5 ~ /Entertainment/ && $8 ~ /United States/ {print}' Global\ YouTube\ Statistics.csv > entUS.txt
+ 1071  vi entUS.txt 
+ 1072  wc -l entUS.txt 
+ 1073  vi Worksheet5/United\ States/Entertainment.txt 
+ 1074  rm comedyUS.txt 
+ 1075  rm entUS.txt 
+ 1076  ls
+ 1077  mv Worksheet5.sh Worksheet5
+ 1078  ls
+ 1079  cd Worksheet5
+ 1080  ls
+ 1081  vi Worksheet5.sh 
+ 1082  history > cmds.log

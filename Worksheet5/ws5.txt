@@ -1,0 +1,16 @@
+Category: Comedy, Line Count: 22
+Category: Education, Line Count: 17
+Category: Entertainment, Line Count: 68
+Category: Film & Animation, Line Count: 12
+Category: Gaming, Line Count: 26
+Category: Howto & Style, Line Count: 12
+Category: Music, Line Count: 73
+Category: nan, Line Count: 22
+Category: News & Politics, Line Count: 5
+Category: Nonprofits & Activism, Line Count: 1
+Category: People & Blogs, Line Count: 38
+Category: Pets & Animals, Line Count: 2
+Category: Science & Technology, Line Count: 6
+Category: Shows, Line Count: 4
+Category: Sports, Line Count: 5
+
